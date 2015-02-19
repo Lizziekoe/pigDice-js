@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pig Dice</title>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>Pig Dice</h1>
+      </div>
+      <div class="belt">
+        <img src="css/img/one.png" alt="" / class="center">
+      </div>
+      <div class="row">
+        <div class="col-md-5 well">
+          <h2 class="player1head"></h2>
+          <div class="showOnTurn">
+            <button id="player1roll">Roll</button>
+            <button id="player1hold">Hold</button>
+            <h3>Current Run: <span id="player1currentRun"></span></h3>
+          </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-5 well">
+          <h2 class="player2head"></h2>
+          <div class="showOnTurn">
+            <button id="player2roll">Roll</button>
+            <button id="player2hold">Hold</button>
+            <h3>Current Run: <span id="player2currentRun"></span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 well">
+          <h3>Total Points: <span id="player1points"></span></h3>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-5 well">
+          <h3>Total Points: <span id="player2points"></span></h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
